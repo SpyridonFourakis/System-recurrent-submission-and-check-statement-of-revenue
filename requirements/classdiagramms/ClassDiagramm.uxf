@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.1.0">
+  <zoom_level>5</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1070</x>
+      <y>135</y>
+      <w>340</w>
+      <h>310</h>
+    </coordinates>
+    <panel_attributes>Dhlwsh
+--
+-parastatika = new HashSet&lt;Parastatiko&gt;(): Set&lt;Parastatiko&gt;
+~id: int
+~trimhno: int
+~submissiondate: Date
+~sinoloprostimou: double
+~emprothesmh: boolean
+-etairia: LogariasmosEtairias
+-ea: ElegxosApaths
+-mm: ElegxosAnantistixiwn
+-empr: AithmaElegxouEmprothesmisIpovolhs
+--
++Dhlwsh(): ctor
++Dhlwsh(int trimhno, Date submissiondate, double sinoloprostimou, boolean emprothesmh): ctor
++getTrimhno(): int
++setTrimhno(int trimhno): void
++getId(): int
++setId(int id): void
++getSubmissiondate(): Date
++setSubmissiondate(Date submissiondate): void
++getSinoloprostimou(): double
++setSinoloprostimou(double sinoloprostimou): void
++isEmprothesmh(): boolean
++setEmprothesmh(boolean emprothesmh): void
++getParastatika(): HashSet&lt;Parastatiko&gt;
++getEtairia(): LogariasmosEtairias
++setLogarismosEtairias(LogariasmosEtairias etairia): void
++hashCode(): int
++equals(Object obj): boolean
++MporeiNaKaneiTropopoihsh(): boolean
++EisagwghNeasDhlwshs(int tri, Date submissiondate, double sinoloprostimou, boolean emprothesmh): void
++SinoloParastatikwn(): int
++addParastatiko(Parastatiko p): void
++diorthwseParastatiko(int id): void
++IparxeiHdhStaParastatika(Parastatiko p): boolean
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>495</x>
+      <y>505</y>
+      <w>240</w>
+      <h>115</h>
+    </coordinates>
+    <panel_attributes>AithmaElegxouEmprothesmisIpovolhs
+--
+~protimo = 500: double
+~id: int
+-prostimoekprothesmis: double
++d: Dhlwsh
+--
++AithmaElegxouEmprothesmisIpovolhs(): ctor
++AithmaElegxouEmprothesmisIpovolhs(double prostimoekprothesmis): ctor
++getProstimoekprothesmis(): double
++setProstimoekprothesmis(double prostimoekprothesmis): void
++ElegkseGiaEkprothesmh(): void
++updatesinolopros(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>540</y>
+      <w>330</w>
+      <h>145</h>
+    </coordinates>
+    <panel_attributes>AithmaElegxou
+--
+~id: int
+~oloklhrwshelegxwn: boolean
+~enhmerwsheforou: boolean
+~dinatothtatropo: boolean
+--
++AithmaElegxou(): ctor
++AithmaElegxou(boolean oloklhrwshelegxwn, boolean enhmerwsheforou, boolean dinatothtatropo): ctor
++getId(): int
++setId(int id): void
++isOloklhrwshelegxwn(): boolean
++setOloklhrwshelegxwn(boolean oloklhrwshelegxwn): void
++isEnhmerwsheforou(): boolean
++setEnhmerwsheforou(boolean enhmerwsheforou): void
++isDinatothtatropo(): boolean
++setDinatothtatropo(boolean dinatothtatropo): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>270</x>
+      <y>0</y>
+      <w>500</w>
+      <h>300</h>
+    </coordinates>
+    <panel_attributes>LogariasmosEtairias
+--
+-dhlwseis = new HashSet&lt;Dhlwsh&gt;(): Set&lt;Dhlwsh&gt;
+~id: int
+-epwnimia: String
+-hmeromhniasistashs: Date
+-afm: String
+-email: String
+-thlefwno: int
+-exeiElefthei: boolean
+-needCheck: boolean
+--
++LogariasmosEtairias(): ctor
++LogariasmosEtairias(int id, String epwnimia, Date hmeromhniasistashs, String afm, String email, int thlefwno, boolean exeiElefthei, boolean needCheck): ctor
++getDhlwseis(): Set&lt;Dhlwsh&gt;
++setDhlwseis(Set&lt;Dhlwsh&gt; dhlwseis): void
++isExeiElefthei(): boolean
++setExeiElefthei(boolean exeiElefthei): void
++isNeedCheck(): boolean
++setNeedCheck(boolean needCheck): void
++getEpwnimia(): String
++setEpwnimia(String epwnimia): void
++getHmeromhniasistashs(): Date
++setHmeromhniasistashs(Date hmeromhniasistashs): void
++getAfm(): String
++setAfm(String afm): void
++getEmail(): String
++setEmail(String email): void
++getThlefwno(): int
++setThlefwno(int thlefwno): void
++hashCode(): int
++equals(Object obj): boolean
++MporeiNaKaneiDhlwsh(LogariasmosEtairias e): boolean
++isValidAfm(LogariasmosEtairias e): boolean
++addDhlwsh(Dhlwsh d): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>505</x>
+      <y>775</y>
+      <w>280</w>
+      <h>145</h>
+    </coordinates>
+    <panel_attributes>ElegxosApaths
+--
+~id: int
+~prostimo: double
+~soumaesodwneskodwn: double
+~apath: boolean
++d: Dhlwsh
+--
++ElegxosApaths(): ctor
++ElegxosApaths(double prostimo, double soumaesodwneskodwn, boolean apath): ctor
++getProstimo(): double
++setProstimo(double prostimo): void
++getSoumaesodwneskodwn(): double
++setSoumaesodwneskodwn(double soumaesodwneskodwn): void
++isApath(): boolean
++setApath(boolean apath): void
++ElegkseAnPerasan35Meres(Dhlwsh d): boolean
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1100</x>
+      <y>760</y>
+      <w>445</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>Parastatiko
+--
+~id: int
+~afmsimvalwmenoou: String
+~arithmosparastatikou: int
+~eidossinallaghs: //gia esoda tha einai 1,gia eksoda tha einai 0&#13;
+boolean
+~poso: double
+~hmeromhniaparastatikou: Date
+-d: Dhlwsh
+--
++Parastatiko(): ctor
++Parastatiko(String afmsimvalwmenoou, int arithmosparastatikou, boolean eidossinallaghs, double poso, Date hmeromhniaparastatikou): ctor
++getId(): int
++setId(int id): void
++getAfmsimvalwmenoou(): String
++setAfmsimvalwmenoou(String afmsimvalwmenoou): void
++getArithmosparastatikou(): int
++setArithmosparastatikou(int arithmosparastatikou): void
++isEidossinallaghs(): boolean
++setEidossinallaghs(boolean eidossinallaghs): void
++getPoso(): double
++setPoso(double poso): void
++getHmeromhniaparastatikou(): Date
++setHmeromhniaparastatikou(Date hmeromhniaparastatikou): void
++hashCode(): int
++equals(Object obj): boolean
++PareToPoso(Parastatiko p): double
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>550</x>
+      <y>355</y>
+      <w>185</w>
+      <h>95</h>
+    </coordinates>
+    <panel_attributes>ElegxosAnantistixiwn
+--
+~id: int
+~diaforaposou: double
++d: Dhlwsh
+--
++ElegxosAnantistixiwn(double diaforaposou): ctor
++ElegxosAnantistixiwn(): ctor
++getDiaforaposou(): double
++setDiaforaposou(double diaforaposou): void
++tsekareEanEntosXronikouOriou(Dhlwsh d): boolean
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>765</x>
+      <y>120</y>
+      <w>315</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+m1=*
+m2=1
+kanei</panel_attributes>
+    <additional_attributes>610.0;280.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1240</x>
+      <y>440</y>
+      <w>40</w>
+      <h>330</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=*
+m2=1
+exei </panel_attributes>
+    <additional_attributes>60.0;640.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>775</x>
+      <y>425</y>
+      <w>305</w>
+      <h>360</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+m1=1
+m2=1
+ginetai</panel_attributes>
+    <additional_attributes>10.0;700.0;590.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>730</x>
+      <y>340</y>
+      <w>350</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1
+m2=1
+elegxetai</panel_attributes>
+    <additional_attributes>680.0;10.0;10.0;400.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>730</x>
+      <y>300</y>
+      <w>350</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1
+m2=1
+pragmatopoieitai stis</panel_attributes>
+    <additional_attributes>680.0;10.0;10.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>325</x>
+      <y>390</y>
+      <w>235</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;360.0;450.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>325</x>
+      <y>570</y>
+      <w>175</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;80.0;330.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>295</x>
+      <y>680</y>
+      <w>225</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;430.0;300.0</additional_attributes>
+  </element>
+</diagram>

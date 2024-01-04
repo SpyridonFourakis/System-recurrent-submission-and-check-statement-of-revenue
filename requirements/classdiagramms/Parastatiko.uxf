@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.1.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>10</y>
+      <w>890</w>
+      <h>480</h>
+    </coordinates>
+    <panel_attributes>aueb.mcsis.omada7.domain.eforia::Parastatiko
+--
+~id: int
+~afmsimvalwmenoou: String
+~arithmosparastatikou: int
+~eidossinallaghs: //gia esoda tha einai 1,gia eksoda tha einai 0&#13;
+boolean
+~poso: double
+~hmeromhniaparastatikou: Date
+-d: Dhlwsh
+--
++Parastatiko(): ctor
++Parastatiko(String afmsimvalwmenoou, int arithmosparastatikou, boolean eidossinallaghs, double poso, Date hmeromhniaparastatikou): ctor
++getId(): int
++setId(int id): void
++getAfmsimvalwmenoou(): String
++setAfmsimvalwmenoou(String afmsimvalwmenoou): void
++getArithmosparastatikou(): int
++setArithmosparastatikou(int arithmosparastatikou): void
++isEidossinallaghs(): boolean
++setEidossinallaghs(boolean eidossinallaghs): void
++getPoso(): double
++setPoso(double poso): void
++getHmeromhniaparastatikou(): Date
++setHmeromhniaparastatikou(Date hmeromhniaparastatikou): void
++hashCode(): int
++equals(Object obj): boolean
++PareToPoso(Parastatiko p): double
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

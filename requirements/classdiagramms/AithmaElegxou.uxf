@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.1.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>10</y>
+      <w>660</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>aueb.mcsis.omada7.domain.eforia::AithmaElegxou
+--
+~id: int
+~oloklhrwshelegxwn: boolean
+~enhmerwsheforou: boolean
+~dinatothtatropo: boolean
+--
++AithmaElegxou(): ctor
++AithmaElegxou(boolean oloklhrwshelegxwn, boolean enhmerwsheforou, boolean dinatothtatropo): ctor
++getId(): int
++setId(int id): void
++isOloklhrwshelegxwn(): boolean
++setOloklhrwshelegxwn(boolean oloklhrwshelegxwn): void
++isEnhmerwsheforou(): boolean
++setEnhmerwsheforou(boolean enhmerwsheforou): void
++isDinatothtatropo(): boolean
++setDinatothtatropo(boolean dinatothtatropo): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

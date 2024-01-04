@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.1.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>10</y>
+      <w>1000</w>
+      <h>600</h>
+    </coordinates>
+    <panel_attributes>aueb.mcsis.omada7.domain.eforia::LogariasmosEtairias
+--
+-dhlwseis = new HashSet&lt;Dhlwsh&gt;(): Set&lt;Dhlwsh&gt;
+~id: int
+-epwnimia: String
+-hmeromhniasistashs: Date
+-afm: String
+-email: String
+-thlefwno: int
+-exeiElefthei: boolean
+-needCheck: boolean
+--
++LogariasmosEtairias(): ctor
++LogariasmosEtairias(int id, String epwnimia, Date hmeromhniasistashs, String afm, String email, int thlefwno, boolean exeiElefthei, boolean needCheck): ctor
++getDhlwseis(): Set&lt;Dhlwsh&gt;
++setDhlwseis(Set&lt;Dhlwsh&gt; dhlwseis): void
++isExeiElefthei(): boolean
++setExeiElefthei(boolean exeiElefthei): void
++isNeedCheck(): boolean
++setNeedCheck(boolean needCheck): void
++getEpwnimia(): String
++setEpwnimia(String epwnimia): void
++getHmeromhniasistashs(): Date
++setHmeromhniasistashs(Date hmeromhniasistashs): void
++getAfm(): String
++setAfm(String afm): void
++getEmail(): String
++setEmail(String email): void
++getThlefwno(): int
++setThlefwno(int thlefwno): void
++hashCode(): int
++equals(Object obj): boolean
++MporeiNaKaneiDhlwsh(LogariasmosEtairias e): boolean
++isValidAfm(LogariasmosEtairias e): boolean
++addDhlwsh(Dhlwsh d): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

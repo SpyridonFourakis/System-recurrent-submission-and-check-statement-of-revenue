@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.1.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>10</y>
+      <w>480</w>
+      <h>480</h>
+    </coordinates>
+    <panel_attributes>aueb.mcsis.omada7.domain.eforia::Trimhno
+--
+~year = LocalDate.now().getYear(): int
++atrimhno = LocalDate.of(year, Month.APRIL, 1): LocalDate
++atrimhnoarxh = LocalDate.of(year, Month.APRIL, 1): LocalDate
++atrimhnoperas = LocalDate.of(year, Month.APRIL, 20): LocalDate
++btrimhno = LocalDate.of(year, Month.JULY, 1): LocalDate
++btrimhnoarxh = LocalDate.of(year, Month.JULY, 1): LocalDate
++btrimhnoperas = LocalDate.of(year, Month.JULY, 20): LocalDate
++gtrimhno = LocalDate.of(year, Month.OCTOBER, 1): LocalDate
++gtrimhnoarxh = LocalDate.of(year, Month.OCTOBER, 1): LocalDate
++gtrimhnoperas = LocalDate.of(year, Month.OCTOBER, 20): LocalDate
++dtrimhno = LocalDate.of(year + 1, Month.JANUARY, 1): LocalDate
++dtrimhnoarxh = LocalDate.of(year + 1, Month.JANUARY, 1): LocalDate
++dtrimhnoperas = LocalDate.of(year + 1, Month.JANUARY, 20): LocalDate
+~ela: LocalDate
+~mhnas: int
+~etos: int
+~mera: int
+~trimhno: int
+--
++Trimhno(): ctor
++Trimhno(int tri): ctor
++Trimhno(int mhnas, int etos, int mera): ctor
++Trimhno(int trimhno, int mhnas, int etos, int mera): ctor
++SePioTrimhnoEisai(): LocalDate
++paremeres(): int
++Einaiemprothesmh(): boolean
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

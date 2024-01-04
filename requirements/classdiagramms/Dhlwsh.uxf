@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.1.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>10</y>
+      <w>680</w>
+      <h>620</h>
+    </coordinates>
+    <panel_attributes>aueb.mcsis.omada7.domain.eforia::Dhlwsh
+--
+-parastatika = new HashSet&lt;Parastatiko&gt;(): Set&lt;Parastatiko&gt;
+~id: int
+~trimhno: int
+~submissiondate: Date
+~sinoloprostimou: double
+~emprothesmh: boolean
+-etairia: LogariasmosEtairias
+-ea: ElegxosApaths
+-mm: ElegxosAnantistixiwn
+-empr: AithmaElegxouEmprothesmisIpovolhs
+--
++Dhlwsh(): ctor
++Dhlwsh(int trimhno, Date submissiondate, double sinoloprostimou, boolean emprothesmh): ctor
++getTrimhno(): int
++setTrimhno(int trimhno): void
++getId(): int
++setId(int id): void
++getSubmissiondate(): Date
++setSubmissiondate(Date submissiondate): void
++getSinoloprostimou(): double
++setSinoloprostimou(double sinoloprostimou): void
++isEmprothesmh(): boolean
++setEmprothesmh(boolean emprothesmh): void
++getParastatika(): HashSet&lt;Parastatiko&gt;
++getEtairia(): LogariasmosEtairias
++setLogarismosEtairias(LogariasmosEtairias etairia): void
++hashCode(): int
++equals(Object obj): boolean
++MporeiNaKaneiTropopoihsh(): boolean
++EisagwghNeasDhlwshs(int tri, Date submissiondate, double sinoloprostimou, boolean emprothesmh): void
++SinoloParastatikwn(): int
++addParastatiko(Parastatiko p): void
++diorthwseParastatiko(int id): void
++IparxeiHdhStaParastatika(Parastatiko p): boolean
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

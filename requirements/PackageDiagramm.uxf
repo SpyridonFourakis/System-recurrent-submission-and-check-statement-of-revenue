@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.1.0">
+  <zoom_level>7</zoom_level>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>168</x>
+      <y>98</y>
+      <w>679</w>
+      <h>476</h>
+    </coordinates>
+    <panel_attributes>aueb</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>175</x>
+      <y>119</y>
+      <w>665</w>
+      <h>448</h>
+    </coordinates>
+    <panel_attributes>mcsis</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>182</x>
+      <y>140</y>
+      <w>637</w>
+      <h>413</h>
+    </coordinates>
+    <panel_attributes>omada7</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>189</x>
+      <y>154</y>
+      <w>595</w>
+      <h>392</h>
+    </coordinates>
+    <panel_attributes>eforia</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>203</x>
+      <y>371</y>
+      <w>168</w>
+      <h>119</h>
+    </coordinates>
+    <panel_attributes>domain
+--
+AithmaElegxouTest
+AithmaElegxouEmprothesmisIpovolis
+DhlwshTest
+ElegxosAnantistixiwnTest
+ElegxosApathsTest
+LogariasmosEtairiasTest
+ParastatikoTest
+TrimhnoTest
+
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>196</x>
+      <y>175</y>
+      <w>476</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>main</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>385</x>
+      <y>378</y>
+      <w>70</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>Persistence
+--
+InitializerTest
+
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>469</x>
+      <y>371</y>
+      <w>168</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>Service
+--
+EgrafhStoSistimaServiceTest
+ElegxosEggrafwnServiceTest
+ElegxosEmprothesmisIpovolhsServiceTest
+ElegxosGiaAnantistixoiesServiceTest
+ElegxosGiaApathServiceTest
+EpivolhProstimouServiceTest
+IpovolhDhlwshsServiceTest
+TropopoihshDhlwshsServiceTest
+TropopoihshEggrafhsServiceTest</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>196</x>
+      <y>357</y>
+      <w>504</w>
+      <h>189</h>
+    </coordinates>
+    <panel_attributes>Test
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>203</x>
+      <y>203</y>
+      <w>168</w>
+      <h>119</h>
+    </coordinates>
+    <panel_attributes>domain
+--
+AithmaElegxou
+AithmaElegxouEmprothesmisIpovolis
+Dhlwsh
+ElegxosAnantistixiwn
+ElegxosApaths
+LogariasmosEtairias
+Parastatiko
+Trimhno
+
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>378</x>
+      <y>210</y>
+      <w>70</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>Persistence
+--
+Initializer
+jpautil
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>455</x>
+      <y>203</y>
+      <w>168</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>Service
+--
+EgrafhStoSistimaService
+ElegxosEggrafwnService
+ElegxosEmprothesmisIpovolhsService
+ElegxosGiaAnantistixoiesService
+ElegxosGiaApathService
+EpivolhProstimouService
+IpovolhDhlwshsService
+TropopoihshDhlwshsService
+TropopoihshEggrafhsService</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>427</x>
+      <y>336</y>
+      <w>56</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;import&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>133</x>
+      <y>56</y>
+      <w>756</w>
+      <h>560</h>
+    </coordinates>
+    <panel_attributes>Java</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
